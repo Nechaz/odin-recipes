@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(179, 154, 154);
+}
+
+.Chief-Image {
+  height: 250px;
+  border-radius: ;
+}
+
+.recipes {
+  background-color: white;
+}
+.recipes > img {
+  height: 250px;
+}
+.recipes > div,
+img {
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+}
