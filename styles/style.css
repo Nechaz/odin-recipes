@@ -6,7 +6,6 @@ body {
 
 .Chief-Image {
   height: 250px;
-  border-radius: ;
 }
 
 .recipes {
@@ -15,8 +14,8 @@ body {
 .recipes > img {
   height: 250px;
 }
-.recipes > div,
-img {
+.recipes {
+  display: flex;
   width: 450px;
   height: 350px;
   object-fit: cover;
