@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+.recipeImg {
+  display: block;
+  margin: 32px auto;
+  height: 200px;
+  width: 300px;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.recipeTitle {
+  text-align: center;
+}
+
+.recipeDescription {
+  text-align: center;
+}
+
+.recipeInformation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexContainer {
+  display: flex;
+}
+.recipeNutrition {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
