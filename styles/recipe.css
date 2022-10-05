@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
   margin: 0;
   padding: 0;
-  background-color: gray;
+  background-color: antiquewhite;
+  font-family: "Roboto", sans-serif;
 }
 
 .recipeImg {
@@ -15,23 +18,92 @@ body {
 
 .recipeTitle {
   text-align: center;
+  margin-top: -16px;
 }
 
 .recipeDescription {
   text-align: center;
+  margin-top: -16px;
+  font-size: 18px;
 }
 
 .recipeInformation {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  height: 64px;
+}
+.recipeTime {
+  margin-right: 16px;
 }
 
-.flexContainer {
-  display: flex;
+.recipeServings {
+  margin-left: 16px;
 }
+
+/** BODY */
+/** BODY */
+/** BODY */
+
+.recipeIngredients {
+  width: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+.recipeInstruction {
+  width: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.instructionText {
+  width: 800px;
+
+  margin-top: -8px;
+}
+.instructionText > li {
+  margin-top: 12px;
+}
+
 .recipeNutrition {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
+  width: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.nutritionTable {
+  margin-top: -10px;
+  width: 264px;
+  text-align: center;
+}
+.nutritionTable > tr {
+  margin-top: 8px;
+}
+.backBtn {
+  height: 32px;
+  width: 192px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 24px;
+  margin-bottom: 32px;
+  color: black;
+  text-decoration: none;
+}
+
+/*! Misc */
+a:hover {
+  color: purple;
 }
