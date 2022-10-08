@@ -1,22 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(179, 154, 154);
+  background-color: rgb(231, 214, 190);
+  font-family: "Roboto", sans-serif;
 }
 
-.Chief-Image {
-  height: 250px;
+.odin-title {
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
 }
-
-.recipes {
-  background-color: white;
-}
-.recipes > img {
-  height: 250px;
-}
-.recipes {
+.chief-Image {
   display: flex;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.recipe-grid {
+  margin-top: 64px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 64px;
+}
+h2 {
+  text-align: center;
+}
+.recipes {
   width: 450px;
-  height: 350px;
+  height: 300px;
   object-fit: cover;
+}
+
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.two {
+  grid-column: 2/2;
+  grid-row: 1;
+}
+
+.three {
+  grid-column: 1/2;
+  grid-row: 2;
+}
+
+.four {
+  grid-column: 2/2;
+  grid-row: 2;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(180, 56, 180);
+}
+
+img {
+  border-radius: 16px;
 }
